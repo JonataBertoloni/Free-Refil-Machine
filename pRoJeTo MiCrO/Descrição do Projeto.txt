@@ -1,0 +1,13 @@
+*S I N O P S E*:
+
+O projeto de Controle de Vazão em Refil de Líquidos (Refrigerantes, Sucos, Chás, etc) feito pelos alunos de Tecnologia em Mecatrônica pela Fatec Santo André, tem como intuito controlar o volume de líquido num recepiente através de um único pulso, o controle está dedicado à estabelecer um limite onde haja folga (Para não encher demais), evitando assim diversos pulsos e possível transbordamento da bebida, que por consequência determinará em um local mais limpo e rendimento máximo da bebida servida.
+
+*F U N C I O N A M E N T O*:
+
+No projeto, teremos entradas e saídas, tais como:
+INPUT = Sensor de presença, Sensor Ultrassônico, Botão.
+OUTPUT = Leds, Relé (Aciona Bombas 12V).
+
+O sensor de presença, ao ser acionado indica que há recipiente em espera para ser completado, acendendo o LED VERMELHO, ao apertar o BOTÃO (Bomba 1 ou Bomba 2), o Sensor Ultrassônico lerá a distância do recipiente e mandará sinal ao RELÉ (Aciona a Bomba 1 ou 2), acendendo o LED AMARELO que indica que o copo estará sendo servido, ao chegar no volume total, o RELÉ desligará a carga (Bomba 1 ou 2) e acenderá o LED VERDE que indica que a função está completa).
+
+IMPORTANTE: Há algumas restrições que o grupo vai decidir.
